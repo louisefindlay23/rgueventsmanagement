@@ -13,6 +13,9 @@
 :root {
     --primary: #781B7D;
     --secondary: #ffffff;
+    --blue: #0090FF;
+    --orange: #FF9200;
+    --red: #F83F3F;
 }
 
 body {
@@ -43,6 +46,10 @@ h3,
 h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+}
+
+h3 {
+    font-size: 16pt;
 }
 
 h4 {
@@ -83,10 +90,30 @@ a {
     overflow: auto;
 }
 
+.content-area,
+.skill-row {
+    padding: 3% 0;
+}
+
+footer {
+    padding: 5% 0;
+}
+
 header img {
     width: 25%;
     border-radius: 30px;
     margin: 0 auto;
+}
+
+main img {
+    padding: 3% 0;
+}
+
+#student {
+    width: 20%;
+    height: auto;
+    overflow: auto;
+    border-radius: 50%;
 }
 
 button {
@@ -94,6 +121,7 @@ button {
     background: var(--secondary);
     color: var(--primary);
     border-radius: 30px;
+    border: none;
 }
 
 button h2 {
@@ -102,8 +130,25 @@ button h2 {
     font-weight: 900;
 }
 
-header button {
+header button,
+.skill-row button {
     width: 40%;
+}
+
+.skill-row h2 {
+    color: var(--secondary);
+}
+
+.blue-row button {
+    background: var(--blue);
+}
+
+.red-row button {
+    background: var(--red);
+}
+
+.orange-row button {
+    background: var(--orange);
 }
 
 footer button {
