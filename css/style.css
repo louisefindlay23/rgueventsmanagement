@@ -5,11 +5,6 @@
 }
 
 @font-face {
-    font-family: 'lindaublack';
-    src: url('linblk-webfont.woff2') format('woff2');
-}
-
-@font-face {
     font-family: 'lindauregular';
     src: url('linreg-webfont.woff2') format('woff2');
 
@@ -30,15 +25,30 @@ nav {
 
 h1,
 h2,
+h3,
+h4,
 p {
     color: var(--secondary);
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
     font-family: 'lindaubold';
     text-align: center;
 }
+
+h3,
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    font-weight: bold;
+}
+
 
 li {
     list-style-type: none;
