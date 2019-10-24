@@ -24,6 +24,10 @@ body {
     background: var(--primary);
 }
 
+nav {
+    padding: 3% 0;
+}
+
 h1,
 h2,
 p {
@@ -63,7 +67,7 @@ a {
     align-items: center;
 }
 
-.flex-item {
+.third-flex-item {
     width: 33%;
     height: auto;
     overflow: auto;
@@ -76,9 +80,9 @@ header img {
 }
 
 button {
-    width: 40%;
     height: 50%;
     background: var(--secondary);
+    color: var(--primary);
     border-radius: 30px;
 }
 
@@ -86,4 +90,21 @@ button h2 {
     font-family: 'Lato', sans-serif;
     color: var(--primary);
     font-weight: 900;
+}
+
+header button {
+    width: 40%;
+}
+
+footer button {
+    width: 10%;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.fa-arrow-up {
+    font-size: 25pt;
+    padding: 1% 0;
 }
