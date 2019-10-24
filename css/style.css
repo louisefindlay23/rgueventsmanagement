@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'lindaubold';
+    src: url('linbld-webfont.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-family: 'lindaublack';
+    src: url('linblk-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'lindauregular';
+    src: url('linreg-webfont.woff2') format('woff2');
+
+}
+
+:root {
+    --primary: #781B7D;
+    --secondary: #ffffff;
+}
+
+body {
+    background: var(--primary);
+}
+
+h1,
+h2,
+p {
+    color: var(--secondary);
+}
+
+h1,
+h2 {
+    font-family: 'lindaubold';
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    width: 33%;
+    height: auto;
+    overflow: auto;
+}
+
+header img {
+    width: 30%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+}
