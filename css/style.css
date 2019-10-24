@@ -36,14 +36,31 @@ h2 {
     text-align: center;
 }
 
+li {
+    list-style-type: none;
+}
+
 p {
     font-family: 'Lato', sans-serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkunderline {
+    text-decoration: underline solid var(--secondary);
 }
 
 .flex-row {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+}
+
+.flex-column {
+    align-items: center;
 }
 
 .flex-item {
@@ -53,8 +70,20 @@ p {
 }
 
 header img {
-    width: 30%;
+    width: 25%;
     border-radius: 30px;
     margin: 0 auto;
 }
+
+button {
+    width: 40%;
+    height: 50%;
+    background: var(--secondary);
+    border-radius: 30px;
+}
+
+button h2 {
+    font-family: 'Lato', sans-serif;
+    color: var(--primary);
+    font-weight: 900;
 }
