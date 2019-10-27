@@ -64,6 +64,7 @@ h3 {
 }
 
 h4 {
+    font-size: 14pt;
     font-weight: bold;
 }
 
@@ -111,10 +112,6 @@ a {
 .content-area,
 .skill-row {
     padding: 3% 0;
-}
-
-footer {
-    padding: 5% 0;
 }
 
 header img {
@@ -167,6 +164,10 @@ header button,
 
 .orange-row button {
     background: var(--orange);
+}
+
+footer {
+    padding-bottom: 3%;
 }
 
 footer button {
