@@ -10,6 +10,11 @@
 
 }
 
+html {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     --primary: #781B7D;
     --secondary: #ffffff;
@@ -24,6 +29,12 @@ body {
 
 nav {
     padding: 3% 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
 }
 
 h1,
@@ -63,6 +74,7 @@ li {
 
 p {
     font-family: 'Lato', sans-serif;
+    padding: 0 5%;
 }
 
 a {
@@ -82,6 +94,12 @@ a {
 
 .flex-column {
     align-items: center;
+}
+
+.half-flex-item {
+    width: 50%;
+    height: auto;
+    overflow: auto;
 }
 
 .third-flex-item {
@@ -157,6 +175,7 @@ footer button {
 
 footer p {
     font-weight: bold;
+    padding: 0;
 }
 
 .fa-arrow-up {
