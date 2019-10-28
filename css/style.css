@@ -84,7 +84,7 @@ a {
 }
 
 .linkunderline {
-    text-decoration: underline solid var(--secondary);
+    text-decoration: underline solid var(--primary);
 }
 
 .flex-row {
@@ -182,4 +182,15 @@ footer p {
 .fa-arrow-up {
     font-size: 25pt;
     padding: 1% 0;
+}
+
+nav h2,
+footer p {
+    color: var(--primary);
+}
+
+#nav-row,
+footer div {
+    background: var(--secondary);
+    border-radius: 30px;
 }
