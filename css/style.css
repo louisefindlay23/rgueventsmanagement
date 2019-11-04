@@ -131,7 +131,8 @@ main img {
     border-radius: 50%;
 }
 
-button {
+button,
+input {
     height: 50%;
     background: var(--secondary);
     color: var(--primary);
@@ -139,30 +140,38 @@ button {
     border: none;
 }
 
-button h2 {
+button h2,
+::placeholder,
+input {
     font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
     color: var(--primary);
     font-weight: 900;
 }
 
-header button,
-.skill-row button {
+header button {
     width: 40%;
 }
 
-.skill-row h2 {
+::placeholder,
+input {
     color: var(--secondary);
+    text-align: center;
 }
 
-.blue-row button {
+input {
+    padding: 5%;
+}
+
+.blue-row input {
     background: var(--blue);
 }
 
-.red-row button {
+.red-row input {
     background: var(--red);
 }
 
-.orange-row button {
+.orange-row input {
     background: var(--orange);
 }
 
