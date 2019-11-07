@@ -121,7 +121,7 @@ header img {
 }
 
 main img {
-    padding: 3% 0;
+    padding-top: 6%;
 }
 
 #student {
@@ -149,10 +149,17 @@ input {
     font-weight: 900;
 }
 
-header button {
+input {
+    font-size: 0.9em;
+}
+
+header button,
+.skill-row button,
+.skill-row input {
     width: 40%;
 }
 
+.skill-row h2,
 ::placeholder,
 input {
     color: var(--secondary);
@@ -160,19 +167,20 @@ input {
 }
 
 input {
-    padding: 5%;
+    padding: 5% 0;
 }
 
-.blue-row input {
+.blue-row button {
     background: var(--blue);
 }
 
-.red-row input {
-    background: var(--red);
+.orange-row button {
+    background: var(--orange);
 }
 
-.orange-row input {
-    background: var(--orange);
+.red-row button,
+.red-row input {
+    background: var(--red);
 }
 
 footer {
