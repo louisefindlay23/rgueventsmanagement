@@ -109,6 +109,14 @@ a {
     overflow: auto;
 }
 
+.half {
+    width: 50%;
+    height: auto;
+    overflow: auto;
+    float: left;
+    padding-bottom: 3%;
+}
+
 .content-area,
 .skill-row {
     padding: 3% 0;
@@ -125,10 +133,11 @@ main img {
 }
 
 #student {
-    width: 20%;
+    width: 30%;
     height: auto;
     overflow: auto;
     border-radius: 50%;
+    padding-top: 3%;
 }
 
 button,
@@ -183,6 +192,10 @@ input {
     background: var(--red);
 }
 
+#clear-float {
+    clear: both;
+}
+
 footer {
     padding-bottom: 3%;
 }
@@ -210,4 +223,8 @@ footer p {
 footer div {
     background: var(--secondary);
     border-radius: 30px;
+}
+
+.content-area {
+    width: 100%;
 }
