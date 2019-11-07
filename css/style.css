@@ -103,6 +103,10 @@ a {
     overflow: auto;
 }
 
+.half-flex-item p {
+    margin-left: 15%;
+}
+
 .third-flex-item {
     width: 33%;
     height: auto;
