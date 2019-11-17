@@ -12,6 +12,34 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6870d026ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    @media only screen and (max-width: 600px) {
+      .skill-row button, .skill-row input {
+      width: 100%;
+      }
+      #logo{
+        font-size: 22px !important;
+      }
+      #responsiveImg{
+            display: contents;
+      }
+      .content-area{
+        text-align: left;
+      }
+      .half-flex-item{
+        width: 100%;
+      }
+      .half-flex-item p {
+   margin-left: 0;  
+}
+}
+
+#skillsBlock{
+  display:block;
+}
+
+    </style>
 </head>
 
 <body>
@@ -25,8 +53,8 @@
                     <img src="img/rgu-logo.png" alt="RGU logo">
                 </div>
             </div>
-            <div class="third-flex-item">
-                <h1>RGU Events Management</h1>
+            <div class="third-flex-item" >
+                <h1 id="logo">RGU Events Management</h1>
             </div>
             <div class="third-flex-item">
                 <div class="flex-row flex-column">
@@ -71,8 +99,12 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis dapibus tortor. Sed et dolor hendrerit, ultricies mi malesuada, scelerisque diam. Maecenas fermentum porta arcu maximus commodo.</p>
             <p>Phasellus nisi odio, consequat sed erat vel, pellentesque elementum risus. Ut fringilla ligula quis libero hendrerit varius. Nam in vehicula sem. Etiam imperdiet lectus eget lacinia pellentesque.</p>
             <p>Vivamus et fringilla elit. Maecenas est nibh, facilisis et vulputate quis, tempor hendrerit orci. Nulla sit amet nunc tellus. Quisque lobortis sem vel nisl tincidunt, sed faucibus mi blandit.</p>
+  </div>
             <!--Skills -->
-            <div class="content-area">
+            <div style="">
+
+            <div id="skillsBlock">
+            <div class="content-area" style="display: grid;">
                 <h3>Skills</h3>
                 <div class="blue-row skill-row flex-row">
                     <div class="third-flex-item">
@@ -140,7 +172,12 @@
                             <input type="text" placeholder="New Skill">
                         </div>
                     </div>
+                  </div>
+
                 </div>
+
+
+              </div>
             </div>
         </div>
 
@@ -149,7 +186,7 @@
             <h3 id="clear-float">Previous Events Experience</h3>
             <div id="previous-events" class="content-area">
                 <div class="flex-row">
-                    <div class="half-flex-item">
+                    <div class="half-flex-item" id="responsiveImg">
                         <img src="img/event-2.jpg">
                     </div>
                     <div class="half-flex-item">
@@ -169,7 +206,7 @@
 
                 <div class="content-area">
                     <div class="flex-row">
-                        <div class="half-flex-item">
+                        <div class="half-flex-item" id="responsiveImg">
                             <img src="img/event.png">
                         </div>
                         <div class="half-flex-item">
